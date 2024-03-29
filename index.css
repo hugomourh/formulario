@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.imagem-de-fundo{
+    background-image: url(imagens/bahia.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+
+.banner{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    margin-left: 180px;
+    color: blue;
+    font-size: 12px;
+   
+}
+.imagem-loc{
+    height: 30px;
+    width: 30px;
+    
+}
+
+.orcamento{
+    position: relative;
+    top:70px;
+    width: 800px;
+    height: 80%;
+    margin: auto;
+    background-color:white;
+
+}
+
+.banner-orcamento{
+    background-color: blue;
+    display: flex;
+    
+    
+}
+
+.imagem-aviao{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 255px;
+    transform: rotate(-25deg);
+}
+
+.subtitulo{
+    margin-left: 260px;
+}
+
+.subtitulo-orcamento{
+
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 20px;
+}
+
+.form input{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+
+.data input{
+    display: flex;
+    flex-direction: column;
+    width: 43%;
+    margin-left: 20px;
+    
+}
+
+.volta input{
+    margin-left: 400px;
+    margin-top: -40px;
+    width: 43%;
+}
+
+.label-volta{
+    margin-left:399px ;
+    position: relative;
+    bottom: 40px;
+}
+
+
+.label-form{
+    position: relative;
+    left: 25px;
+}
+
+.select-form select{
+    display: flex;
+    width: 43%;
+    margin-left: 20px;
+}
+
+.ida-volta{
+    margin-top: 15px;
+}
+
+.destino select {
+    
+    margin-left: 400px;
+    width: 43%;
+    margin-top: -33px;
+}
+
+.destino01{
+    margin-left: 400px;
+    position: relative;
+    bottom: 32px;
+}
+
+.destino-label{
+    margin-left: 25px;
+}
+
+
+.infantil{
+    margin-left: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.servicos{
+    display: flex;
+    margin-left: 20px;
+    gap: 15px;
+}
+
+.infantil-label{
+    margin-bottom: 15px;
+}
+
+button{
+    margin-top: 15px;
+    margin-left: 20px;
+    background-color: #3333cc;
+    padding: 5px 15px;
+    cursor: pointer;
+
+}
+
+.ofertas{
+    
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    
+
+}
+
+.cristo-redentor{
+    background-image: url(imagens/rio.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 400px;
+    margin-left: 195px;
+}
+
+.manaus{
+    background-image: url(imagens/manaus.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 250px;
+    margin-left: 605px;
+    margin-top: -500px
+   
+    
+}
+
+.sao-paulo{
+    background-image: url(imagens/saopaulo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    width: 250px;
+    margin-left:605px ;
+    margin-top: 10px;
+    
+    
+}
+  
+.maranhao{
+    background-image: url(imagens/maranhao.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 250px;
+    margin-left: 865px;
+    margin-top: -500px;
+    
+}
+
+.niteroi{
+    background-image: url(imagens/niteroi.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    width: 250px;
+    margin-left: 865px;
+
+}
+
+.turismo{
+    width: 800px;
+    margin: auto;
+}
+
+.fotos-turismo{
+    display: flex;
+    gap: 50px;
+}
+
+.img-turismo{
+    height: 380px;
+    width: 430px;
+}
+
+.fotos{
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+footer{
+    margin-top: 22px;
+    height: 160px;
+    background-color:#3333cc ;
+    justify-content: space-around;
+}
+
+.img-footer{
+    height: 25px;
+    width: 25px;
+}
+
+.contato{
+    margin-left: 5px;
+}
+
+
+
+.redes-socias{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.logo{
+    display: flex;
+    margin-top: 15px;
+}
+
